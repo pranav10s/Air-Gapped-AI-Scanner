@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# Ignore the massive Model weights
+/Models/
+
+# Ignore the local Vector Database
+/DB/
+
+# Ignore the Python virtual environment
+scanner_env/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore the security reports
+security_report.txt
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+>>>>>>> bdf6602 (Initial commit: Air-Gapped AI Vulnerability Scanner with RAG)
